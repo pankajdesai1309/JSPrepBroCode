@@ -1,0 +1,40 @@
+body{
+  padding: 25px;
+  font-family: Verdana;
+}
+.title {
+	color: #5C6AC4;
+}
+
+#countLabel{
+  display: block;
+  text-align: center;
+  font-size: 10em;
+}
+
+#errorMessage{
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  color: red;
+}
+
+#btnContainer{
+  display: block;
+  text-align: center;
+
+}
+
+.buttons{
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 1rem;
+  color: white;
+  background-color: hsl(214, 100%, 74%);
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.buttons:hover{
+  background-color: hsl(214, 100%, 54%);
+}
